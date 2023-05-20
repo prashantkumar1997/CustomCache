@@ -1,11 +1,11 @@
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-import net.prashantk.cache.Cache;
-import net.prashantk.cache.CacheImpl;
+package net.prashantk.cache;
+
 import net.prashantk.evict.EvictionPolicy;
 import net.prashantk.evict.impl.MRUEvictionPolicy;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-public class MRUCache {
+public class MRUCacheTest {
     @Test
     public void mruCache() {
 
